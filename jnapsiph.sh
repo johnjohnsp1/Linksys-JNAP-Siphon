@@ -101,13 +101,13 @@ curl -skL "$T/JNAP/" --connect-timeout 3 -d "{}" -H "X-JNAP-ACTION: http://cisco
 sleep 2
 echo -e $REDB"-------------------------------------------------------------------------------------- $NON"
 echo ''
-echo -e $BLU"Checking for users Network ID....$NON"
+echo -e $BLU"Admin Password Restrictions $NON"
 echo ''
 curl -skL "$T/JNAP/" --connect-timeout 3 -d "{}" -H "X-JNAP-ACTION: http://cisco.com/jnap/core/GetAdminPasswordRestrictions"
 sleep 2
 echo -e $REDB"-------------------------------------------------------------------------------------- $NON"
 echo ''
-echo -e $BLU"Checking for users Network ID....$NON"
+echo -e $BLU"Even more device info $NON"
 echo ''
 curl -skL "$T/JNAP/" --connect-timeout 3 -d "{}" -H "X-JNAP-ACTION: http://cisco.com/jnap/core/GetDeviceInfo"
 sleep 2
