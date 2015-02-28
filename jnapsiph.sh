@@ -35,7 +35,7 @@ curl -skL "$T/JNAP/" --connect-timeout 3 -d "{}" -H "X-JNAP-ACTION: http://cisco
 sleep 2
 echo -e $REDB"-------------------------------------------------------------------------------------- $NON"
 echo ''
-echo -e $BLU"Let's see the devices on the router $NON"
+echo -e $BLU"Let's see all the devices that have ever been on the router $NON"
 echo ''
 curl -skL "$T/JNAP/" --connect-timeout 3 -d "{}" -H "X-JNAP-ACTION: http://cisco.com/jnap/devicelist/GetDevices"
 sleep 2
