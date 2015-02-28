@@ -19,7 +19,7 @@ echo ''
 ############################################################################
 read -p $BLU"Enter the target Smart Linksys Router (w/o trailing slash - http://10.0.0.1): $NON" T
 echo ""
-echo $GRNB"Target is set to:$NON$BLU $T:$P $NON"
+echo $GRNB"Target is set to:$NON$BLU $T $NON"
 ############################################################################
 echo -e $GRNB"=================================================================================$NON"
 echo ''
